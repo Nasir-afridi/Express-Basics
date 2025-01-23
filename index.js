@@ -12,4 +12,8 @@ app.get('/home', (req, res) => {
   res.send('hello world');
 });
 
+app.get('/profile/:username', (req, res) => { // :username is a parameter we can write any name we want to store in username.
+  res.send(`hello this is me ${req.params.username}`); // if we want to print the same name of the url in the body we use this.
+});
+
 app.listen(4000);
