@@ -4,7 +4,7 @@ const app = express();
 //Middleware
 app.use((req, res, next) => {
   console.log('middleware 1');
-  next();
+  next(); // agrr ye na chalaya to control next route prr nahe jayga.
 });
 
 //Routes
