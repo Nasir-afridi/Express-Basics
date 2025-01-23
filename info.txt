@@ -1,0 +1,4 @@
+1. middleware aik aisa function hota hai jo har route sy paihly chalta hai. iska matlb sary routes mein koi be chalay ossay pahly middleware chalyga or osmein likha code pahly execute hota hai.
+2. req: ismein user ka data hota hai 
+3. res: ismein code hota server sy bhaijnaay kk liye.
+node kk sath aik masla hai jbb control kisi be middleware kkkk pass chala gya to control khud sy agly route ya middleware prr nahe jayga balky osko push krna pryga.
