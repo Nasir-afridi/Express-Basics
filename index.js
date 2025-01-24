@@ -1,6 +1,9 @@
 import express from 'express';
 const app = express();
 
+const port  = 4000;
+
+
 //Middleware
 app.use((req, res, next) => {
   console.log('middleware 1');
@@ -16,4 +19,6 @@ app.get('/profile/:username', (req, res) => { // :username is a parameter we can
   res.send(`hello this is me ${req.params.username}`); // if we want to print the same name of the url in the body we use this.
 });
 
-app.listen(4000);
+app.listen(4000, () => {
+  console.log(`Server is running on port : ${port}`);
+});
