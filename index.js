@@ -23,11 +23,11 @@ app.get('/profile/:username', (req, res) => { // :username is a parameter we can
 
 // ejs api
 app.get('/', (req, res) => {
-  res.render("index");
+  res.render("index", {age:12});  // we also pass data from it 
 });
 
 app.get('/contact', (req, res) => {
-  res.render("contact");
+  res.render("contact", {name:"Muhammad Nasir"});
 });
 
 app.listen(4000, () => {
