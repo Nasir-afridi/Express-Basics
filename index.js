@@ -30,7 +30,7 @@ app.get('/contact', (req, res) => {
   res.render("contact", {name:"Muhammad Nasir"});
 });
 
-// path for the static files
+// path for the static files.
 app.use(express.static('public'));
 
 app.listen(4000, () => {
