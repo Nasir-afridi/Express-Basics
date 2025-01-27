@@ -20,4 +20,9 @@
 5: send ki jagah render karo. => render krty waqt make sure views folder wale he file ka naam likhaain. aur render function mein .ejs mention na krain.
 
 
-8. static files.
+8. static files. images, stylesheets frontend js setup krna. static files ko setup krny kk liye ye steps krny hain:
+
+1: public naam sy folder bnao.
+2: public folder main three folder bananay hain images, stylesheets, javascript.
+3: express static ko configure krna hai
+4: path ko understand krna hai 
