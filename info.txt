@@ -4,3 +4,20 @@
 4. next: ye aik push hota hai joo request to aagay bhaijnaay kk liye use hota hai.
 5. node kk sath aik masla hai jbb control kisi be middleware kkkk pass chala gya to control khud sy agly route ya middleware prr nahe jayga balky osko push krna pryga.
 6. route parameters: aisa koi bhi route jska koi hissa bar bar same rehta hai orr kuch hissa bar bar change hota hai isky liye ap ek dynamic route bna skty ho. iski value access krny kk liye hamain req.params.username ya jiski bhi value access krne ho use krna pryga.
+7.template engines: we use ejs html k pass power nahe hai calculation krny kii. isliye ham backend mein html ko ejs kaihty hain orr ejs calculation bhi krskta hai.ejs html ka advance version hai . we also pass value from it using <%=  %>
+
+******************how to setup the ejs*************************
+1: ejs install
+   npm i ejs
+
+2: config ejs
+   app.set("view engine", "ejs");
+
+3: ek views name sy folder bnao.
+
+4: osmein ejs file bnao.
+
+5: send ki jagah render karo. => render krty waqt make sure views folder wale he file ka naam likhaain. aur render function mein .ejs mention na krain.
+
+
+8. static files.
